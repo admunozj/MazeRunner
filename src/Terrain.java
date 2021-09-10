@@ -47,4 +47,13 @@ public class Terrain {
         }
         return result;
     }
+
+    public int width() {
+        return cols;
+    }
+
+    public int length() {
+        return rows;
+    }
+
 }
